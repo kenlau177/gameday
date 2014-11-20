@@ -2,7 +2,8 @@
 #'
 #' Checks if NHL team has game day
 #'
-#' FILL THIS IN LATER
+#' This package allows the user to input an NHL team name, and checks to
+#' see if the team is playing today.
 #'
 #' @docType package
 #' @name gameday
