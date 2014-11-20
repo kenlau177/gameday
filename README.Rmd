@@ -1,0 +1,34 @@
+---
+title: "Homework 10 UBC STAT 547M"
+author: "Ken Lau"
+date: "Wednesday, November 19, 2014"
+output: md_document
+---
+
+**This repository contains the game day package.**
+
+**How to Install Package**
+First install devtools if you don't already have it. Then type in R, 
+
+```{r}
+library(devtools)
+install_github("kenlau177/gameday")
+library(gameday)
+```
+
+**How it works**
+There are 2 functions in this package:
+- **gday**: Determines whether an NHL team has a game given the day
+- **scores**: Presents information of all the games and scores for a particular day.
+
+You can view the documentations of these two functions by: 
+- ?gday
+- ?scores
+
+Examples:
+```{r}
+gday(team="Canucks", gDate="2014-11-19")
+scores(gDate="2014-11-16")
+```
+
+
