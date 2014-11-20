@@ -10,7 +10,7 @@ output: md_document
 **How to Install Package**
 First install devtools if you don't already have it. Then type in R, 
 
-```{r}
+```{r, message=FALSE, echo=F}
 library(devtools)
 install_github("kenlau177/gameday")
 library(gameday)
