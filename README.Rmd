@@ -10,16 +10,17 @@ output: md_document
 **How to Install Package**
 First install devtools if you don't already have it. Then type in R, 
 
-```{r, message=FALSE, echo=F}
+```{r, message=FALSE}
 library(devtools)
 install_github("kenlau177/gameday")
 library(gameday)
 ```
 
 **How it works**
+
 There are 2 functions in this package:
-- **gday**: Determines whether an NHL team has a game given the day
-- **scores**: Presents information of all the games and scores for a particular day.
+-**gday**: Determines whether an NHL team has a game given the day
+-**scores**: Presents information of all the games and scores for a particular day.
 
 You can view the documentations of these two functions by: 
 - ?gday
@@ -31,4 +32,5 @@ gday(team="Canucks", gDate="2014-11-19")
 scores(gDate="2014-11-16")
 ```
 
+See the [Vignette](https://github.com/kenlau177/gameday/blob/master/vignettes/overview.md)
 
