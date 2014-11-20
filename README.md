@@ -12,12 +12,16 @@ have it. Then type in R,
 
 **How it works**
 
-There are 2 functions in this package: -**gday**: Determines whether an
-NHL team has a game given the day -**scores**: Presents information of
-all the games and scores for a particular day.
+There are 2 functions in this package:
 
-You can view the documentations of these two functions by: - ?gday -
-?scores
+-   gday: Determines whether an NHL team has a game given the day
+-   scores: Presents information of all the games and scores for a
+    particular day.
+
+You can view the documentations of these two functions by:
+
+-   ?gday
+-   ?scores
 
 Examples:
 
